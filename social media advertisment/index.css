@@ -1,0 +1,88 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Box Styles */
+.boxa1, .boxb1, .boxc1, .boxd1, .boxe1, .boxf1, .boxg1, .boxh1 {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: transform 0.5s ease, box-shadow 0.5s ease;
+}
+
+.boxa1:hover, .boxb1:hover, .boxc1:hover, .boxd1:hover, .boxe1:hover, .boxf1:hover, .boxg1:hover, .boxh1:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Typography */
+.boxa12, .boxb12, .boxc12, .boxd12, .boxe12, .boxf12, .boxg12, .boxh12 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #6e4ac8;
+    margin-bottom: 10px;
+}
+
+.boxa123, .boxb123, .boxc123, .boxb1235, .boxg123 {
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.boxb1234 {
+    font-size: 1.2rem;
+    color: #f2a900;
+    font-weight: bold;
+}
+
+/* Image Styles */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin: 15px 0;
+}
+
+/* Highlighted Text */
+.boxg12 {
+    color: #f2a900;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+/* Button Styles */
+button {
+    background-color: #6e4ac8;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-top: 15px;
+}
+
+button:hover {
+    background-color: #5637a5;
+}
