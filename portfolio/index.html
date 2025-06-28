@@ -1,70 +1,230 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Omojay's Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Omojola Emmanuel | Portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
+  <!-- home section -->
+  <section class="home" id="home">
     <header>
-        <h1>Omojola Emmanuel</h1>
-        <h2>Front-End Developer | Python Enthusiast | Game Developer</h2>
-        <a href="#portfolio" class="cta-button">View My Work</a>
+      <div class="logo">
+        <span data-aos="fade-down" data-aos-delay="100">O</span>
+        <span data-aos="fade-down" data-aos-delay="200">M</span>
+        <span data-aos="fade-down" data-aos-delay="300">O</span>
+        <span data-aos="fade-down" data-aos-delay="400">J</span>
+        <span data-aos="fade-down" data-aos-delay="500">A</span>
+        <span data-aos="fade-down" data-aos-delay="600">Y</span>
+      </div>
+
+      <div class="hamburger" id="hamburger">
+         <i class="fas fa-bars"></i>
+      </div>
+
+      <div class="navbar" id="nav-menu">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </div>
     </header>
+    <div class="text-content">
+      <h1 data-aos="fade" data-aos-delay="800">
+        Hi, I'm <span class="typewriter">Omojola Emmanuel</span>
+      </h1>
+      <h2><span class="auto-type"></span></h2>
+      <p data-aos="zoom-in" data-aos-delay="1000">
+        I specialize in building efficient, scalable, and user-friendly web applications
+        using Python, Django, and modern front-end technologies. With a solid background
+        in both back-end and front-end development, I focus on creating seamless, responsive,
+        and visually appealing digital experiences. I'm passionate about clean code, performance,
+        and delivering projects that are both functional and intuitive. As I grow in my journey,
+        I stay committed to learning, improving, and building meaningful solutions.
+      </p>
+      <div class="btn" data-aos="zoom-in" data-aos-delay="1400" data-aos-duration="1000">
+        <button><a href="">Download CV</a></button>
+      </div>
+      <div class="social-btn">
+        <a href="https://wa.me/07010149662" target="_blank" style="animation-delay: 1.2s;"><i class="fab fa-whatsapp"></i></a>
+        <a href="https://instagram.com/omojay46" target="_blank" style="animation-delay: 1.4s;"><i class="fab fa-instagram"></i></a>
+        <a href="https://x.com/OmojolaEmm18" target="_blank" style="animation-delay: 1.6s;"><i class="fab fa-x-twitter"></i></a>
+        <a href="https://www.linkedin.com/in/omojola-emmanuel-382883315?trk=reactions-list-ALL_feed-actor-name" target="_blank" style="animation-delay: 1.8s;"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://github.com/omojay-maker" target="_blank" style="animation-delay: 2s;"><i class="fab fa-github"></i></a>
+      </div>
+    </div>
+  </section>
 
-    <section id="about">
-        <h2>About Me</h2>
-        <p>I am a student at Lagos State University, studying Computer Science. I am an indigene of Nigeria and currently reside in Lagos.</p>
-        <h3>Skills</h3>
-        <ul>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JavaScript</li>
-            <li>Python</li>
-            <li>Pygame</li>
-        </ul>
-        <img src="my_pic.jpg" alt="Profile Picture" class="profile-pic"> <!-- Placeholder for your profile picture -->
-    </section>
+  <!-- about section -->
+  <section class="about" id="about">
+    <div class="img" data-aos="fade-right" data-aos-delay="200" data-aos-duration="1000">
+      <img src="media/IMG_20250525_153821.jpg" alt="">
+    </div>
 
-    <section id="portfolio">
-        <h2>My Projects</h2>
-        <p><img src="image1" alt=""></p>
-        <p><img src="image2" alt=""></p>
-        <p><img src="image3" alt=""></p>
-        <p><img src="image4" alt=""></p>
-        <p><img src="image5" alt=""></p>
-        <!-- Add your project details here -->
-    </section>
+    <div class="text" data-aos="fade-left" data-aos-delay="600" data-aos-duration="1000">
+      <h2>About <span>OMOJAY</span></h2>
+      <p>
+        I'm Omojola Emmanuel, a web developer passionate about building clean, responsive,
+        and user-friendly web applications. I specialize in using Python and Django for
+        back-end development, alongside HTML, CSS, and JavaScript for creating modern,
+        functional front-ends. <br>
+        I enjoy turning ideas into digital solutions that are both efficient and visually
+        appealing. Whether working solo or in a team, I focus on clean code, good design,
+        and delivering real results. I'm constantly learning and exploring new tools to grow
+        as a developer and create better web experiences.
+      </p>
+    </div>
+  </section>
 
-    <section id="resume">
-        <h2>Resume</h2>
-        <p>Lagos State University, Computer Science, undergraduate.</p>
-        <p>Currently seeking internship and job opportunities opportunities.</p>
-        <a href="resume.pdf" download>Download My Resume</a> <!-- Link to your resume -->
-    </section>
+  <!-- skills section -->
+  <section class="skills" id="skills">
+    <h2 data-aos="fade-down" data-aos-delay="200">My <span>Skills</span></h2>
+    <div class="skill-block">
+      <div class="block1" data-aos="fade-up" data-aos-delay="200">
+        <i class="fas fa-code"></i>
+        <h3>Web Development</h3>
+        <p>
+          I design responsive, user-friendly websites focused on seamless experiences across all devices.
+        </p>
+      </div>
 
-    <section id="contact">
-        <h2>Contact Me</h2>
-        <form>
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required>
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
-            <label for="message">Message:</label>
-            <textarea id="message" name="message" required></textarea>
-            <button type="submit">Send Message</button>
-        </form>
-        <h3>Contact Information</h3>
-        <p>Phone: 07010149662</p>
-        <p>Email: <a href="mailto:omojolae6@gmail.com">omojolae6@gmail.com</a></p>
-        <!-- Add social media links here -->
-    </section>
+      <div class="block2" data-aos="fade-up" data-aos-delay="400">
+        <i class="fab fa-html5"></i>
+        <h3>HTML</h3>
+        <p>
+          I structure content for the web, ensuring it's clean, accessible, and easy to navigate.
+        </p>
+      </div>
 
-    <footer>
-        <p>&copy; 2023 Omojola Emmanuel. All rights reserved.</p>
-    </footer>
-    
-    <script src="index.js"></script>
+      <div class="block1" data-aos="fade-up" data-aos-delay="600">
+        <i class="fab fa-css3-alt"></i>
+        <h3>CSS</h3>
+        <p>
+          I style websites with layouts and effects that improve both visual appeal and usability.
+        </p>
+      </div>
+
+      <div class="block2" data-aos="fade-up" data-aos-delay="800">
+        <i class="fab fa-js"></i>
+        <h3>JavaScript</h3>
+        <p>
+          I add interactivity and dynamic behavior to enhance how users interact with a website.
+        </p>
+      </div>
+
+      <div class="block1" data-aos="fade-up" data-aos-delay="1000">
+        <i class="fab fa-python"></i>
+        <h3>Python</h3>
+        <p>
+          I use Python to handle logic and backend tasks, keeping applications efficient and reliable.
+        </p>
+      </div>
+
+      <div class="block2" data-aos="fade-up" data-aos-delay="1200">
+        <i class="fas fa-leaf"></i> 
+        <h3>Django</h3>
+        <p>
+          I build robust web applications with Django, focusing on clean code and scalable solutions.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- project section -->
+  <section class="projects" id="projects" data-aos="fade-down" data-aos-delay="200">
+    <h2>My <span>Projects</span></h2>
+    <div class="project-content">
+      <div class="project-block" data-aos="zoom-in" data-aos-delay="200" data-aos-duration="1000">
+        <img src="media/cctv-web-image.png" alt="project1">
+        <h2>CCTV Web Monitor</h2>
+        <p>
+          A responsive web application for viewing live CCTV feeds remotely with a clean and user-friendly
+          interface.
+        </p>
+        <button><a href="https://omojay-maker.github.io/OMOJAY/">Visit Site</a></button>
+      </div>
+
+      <div class="project-block" data-aos="zoom-in" data-aos-delay="400" data-aos-duration="1000">
+        <img src="media/Food App.webp" alt="project2">
+        <h2>Mobile Food Web</h2>
+        <p>
+          A mobile-first food ordering website that lets users browse the menu and place orders with ease.
+        </p>
+        <button><a href="">Visit Site</a></button>
+      </div>
+
+      <div class="project-block" data-aos="zoom-in" data-aos-delay="600" data-aos-duration="1000">
+        <img src="media/socila media adverttisment dash board.png" alt="project3">
+        <h2>MediaMetric</h2>
+        <p>
+          A responsive dashboard for monitoring and managing social media ad performance.
+        </p>
+        <button><a href="">Visit Site</a></button>
+      </div>
+    </div>
+  </section>
+
+  <!-- contact section -->
+  <section class="contact" id="contact">
+    <div class="contact-left" data-aos="fade-right" data-aos-delay="200" data-aos-duration="1000">
+      <h4>Contact <span>OMOJAY</span></h4>
+      <h2>Let's Do Great Work Together.</h2>
+      <p>
+        I'm always open to new collaborations and exciting ideas. Reach out and let's
+        build something amazing together.
+      </p>
+
+      <div class="contact-buttons">
+        <button><a href="mailto:omojolae6@gmail.com"><i class="fas fa-envelope"></i>  omojolae6@gmail.com</a></button>
+        <button><a href="tel:07010149662"><i class="fas fa-phone"></i>  07010149662</a></button>
+      </div>
+
+      <h3>Location</h3>
+      <div class="locations">
+        <div class="location-box">
+          <h4>Nigeria</h4>
+          <p><strong>Address:</strong> Flat 4, Block 565, Abesan Estate</p>
+          <p><strong>Phone:</strong> 07010149662</p>
+          <p><strong>Email:</strong> omojolae6@gmail.com</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="contact-right" data-aos="fade-left" data-aos-delay="400" data-aos-duration="1000">
+      <p class="privacy-text">We respect your privacy and keep your data completely confidential.</p>
+      <h4>SEND US A MESSAGE</h4>
+      <form id="contact-form">
+        <input type="text" name="name" placeholder="Name" data-aos="fade-up" data-aos-delay="500">
+        <input type="text" name="phone" placeholder="Phone" data-aos="fade-up" data-aos-delay="600">
+        <input type="email" name="email" placeholder="Email" data-aos="fade-up" data-aos-delay="700">
+        <textarea placeholder="Message" name="message" data-aos="fade-up" data-aos-delay="800"></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+  </section>
+  
+  <footer class="footer">
+    <p>&copy; 2025 OMOJAY. All rights reserved.</p>
+  </footer>
+
+  <!-- scroll to top button -->
+  <a href="#" class="scroll-top" title="Go to top">
+    <i class="fas fa-chevron-up"></i>
+  </a>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 800,
+      once: true,
+    });
+  </script>
+  <script src="script.js"></script>
 </body>
 </html>
